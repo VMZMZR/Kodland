@@ -1,0 +1,11 @@
+Diccionario = {
+    "XD": "Algo extremadamente gracioso",
+    "MEH": "Algo aburrido"
+}
+word = input("Escribe una palabra que no entiendas (¡con mayúsculas!): ")
+if word in Diccionario.keys():
+    print(Diccionario[word])
+
+
+else:
+    print("Lo siento esta palabra no se en cuantra en este diccionario:(")
